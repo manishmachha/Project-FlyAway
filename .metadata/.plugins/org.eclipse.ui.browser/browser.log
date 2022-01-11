@@ -1,0 +1,35 @@
+
+Jan 09, 2022 20:51:21.960 NEW SESSION
+Jan 09, 2022 20:51:21.960 [15640:12204:0109/205121.959:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 09, 2022 20:51:21.960 [15640:12204:0109/205121.959:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+Jan 09, 2022 20:51:21.960 [15640:12204:0109/205121.959:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 09, 2022 20:51:21.962 [15640:12204:0109/205121.962:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+Jan 09, 2022 20:53:06.484 [6688:14424:0109/205306.483:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 09, 2022 20:53:06.484 [6688:14424:0109/205306.483:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+Jan 09, 2022 20:53:06.485 [6688:14424:0109/205306.483:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 09, 2022 20:53:06.490 [6688:14424:0109/205306.489:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+
+Jan 09, 2022 20:58:33.674 NEW SESSION
+Jan 09, 2022 20:58:33.674 [15492:9188:0109/205833.671:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 09, 2022 20:58:33.675 [15492:9188:0109/205833.671:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+Jan 09, 2022 20:58:33.675 [15492:9188:0109/205833.671:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 09, 2022 20:58:33.676 [15492:9188:0109/205833.675:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+Jan 09, 2022 21:00:16.659 [7348:14248:0109/210016.659:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 09, 2022 21:00:16.660 [7348:14248:0109/210016.659:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+Jan 09, 2022 21:00:16.660 [7348:14248:0109/210016.659:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 09, 2022 21:00:16.666 [7348:14248:0109/210016.665:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+Jan 09, 2022 21:00:24.134 [14788:8608:0109/210024.133:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 09, 2022 21:00:24.135 [14788:8608:0109/210024.133:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+Jan 09, 2022 21:00:24.135 [14788:8608:0109/210024.133:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 09, 2022 21:00:24.142 [14788:8608:0109/210024.142:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+
+Jan 11, 2022 09:43:17.120 NEW SESSION
+Jan 11, 2022 09:43:17.121 [3904:7540:0111/094317.119:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 11, 2022 09:43:17.121 [3904:7540:0111/094317.119:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+Jan 11, 2022 09:43:17.121 [3904:7540:0111/094317.119:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 11, 2022 09:43:17.121 [3904:7540:0111/094317.121:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+Jan 11, 2022 09:43:18.335 [3904:7140:0111/094318.335:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jan 11, 2022 09:43:35.661 [3848:1836:0111/094335.661:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 11, 2022 09:43:35.662 [3848:1836:0111/094335.661:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+Jan 11, 2022 09:43:35.662 [3848:1836:0111/094335.661:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 11, 2022 09:43:35.662 [3848:1836:0111/094335.662:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()

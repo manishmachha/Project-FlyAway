@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FlyAway</title>
+</head>
+<body>
+<h1>FlyAway</h1>
+Travel Date <input type="date" id="traveldate" name="traveldate" placeholder="dd/mm/yyyy"></br>
+<label for="date">Start Date </label>
+<input list="start-dates" id="date" name="date" />
+
+<datalist id="start-dates">
+    <option value="Hyderabad">
+    <option value="Delhi">
+    <option value="Kolkata">
+    <option value="Mumbai">
+    <option value="Bangalore">
+</datalist>
+</body>
+</html>

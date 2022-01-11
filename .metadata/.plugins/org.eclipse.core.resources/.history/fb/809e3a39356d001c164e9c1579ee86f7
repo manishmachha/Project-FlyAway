@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+int count=Integer.parseInt(request.getParameter("no of persons"));
+out.println("Payment  of amount " + 5000*count +"Successful");
+RequestDispatcher rd = request.getRequestDispatcher("/payment.jsp");
+rd.include(request, response);
+%>
+Enter Debit card Number : <input type="number"></br></br>
+Enter Expiry Date : <input type="text"></br></br>
+Enter CVV : <input type="text"></br></br>
+<input type="submit" value="submit"></br></br>
+</body>
+</html>

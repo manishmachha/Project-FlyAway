@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="payment.jsp" method="post">
+		<h2>Enter your details</h2>
+		<%
+		int count = Integer.parseInt(request.getParameter("no of persons"));
+		for (int i = 1; i <= count; i++) {
+		%>
+		Passenger Name <input type="text" name="fullname"> </br> </br> 
+		Aadhar UID <input type="text" name="uid"></br> </br>
+		Phone Number <input type="text" name="phone"> </br> </br> 
+		Age <input type="text" name="age"></br></br>
+		-----------------------------------------------------------------------</br></br>
+		<%
+		}
+		%>
+		<input type="submit" value="Book Ticket"></br>
+		</br>
+	</form>
+</body>
+</html>
