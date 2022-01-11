@@ -11,6 +11,7 @@ Connection con = DriverManager.getConnection(url, user, pass);
 Statement st = con.createStatement();
 ResultSet rs = st.executeQuery(sql);
 %>
+<h1>Places List</h1>
 <table border="1">
 	<tr>
 		<th>code</th>

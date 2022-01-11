@@ -1,0 +1,51 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FlyAway</title>
+</head>
+<body>
+	<h1>FlyAway</h1>
+	<form action="search.jsp" method="post">
+		Travel Date <input type="date" id="traveldate" name="traveldate"
+			placeholder="dd/mm/yyyy"> </br> </br> 
+		<datalist id="source">
+<%
+Class.forName("com.mysql.jdbc.Driver");
+String url = "jdbc:mysql://localhost:3306/flyaway";
+String user = "root";
+String pass = "2020";
+String sql = "select name from places order by name";
+Connection con = DriverManager.getConnection(url,user,pass);
+    ResultSet rs = con.createStatement().executeQuery(sql);
+    while (rs.next()) {
+        String source = rs.getString("name");
+%>
+            <option value="<%=source%>"/>
+<%
+    }
+    rs.close();
+    con.close();
+%>
+        </datalist>
+        <p>source: <input type="text" list="source"/></p>
+		</br> </br> <label for="destination">Destination </label> <input
+			list="destination" id="date" name="destination" />
+		<datalist id="destination">
+			<option value="Hyderabad">
+			<option value="Delhi">
+			<option value="Kolkata">
+			<option value="Mumbai">
+			<option value="Bangalore">
+		</datalist>
+		</br> </br> No of Persons <input type="number" name="no of persons"></br>
+		</br> <input type="submit" value="show available flights"></br>
+		</br>
+	</form>
+	<form action="login.jsp" method="post">
+		<input type="submit" value="Admin Login">
+	</form>	
+</body>
+</html>

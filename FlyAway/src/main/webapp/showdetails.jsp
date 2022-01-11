@@ -43,12 +43,12 @@ ResultSet rs = st.executeQuery(sql);
 </table>
 </br>
 <form action="payment.jsp" method="post">
-	No of Persons <input type="number" name="no of persons"></br> </br>
+	No of Persons <input type="number" name="no of persons" required></br> </br>
 	<h1>Payment Details :</h1>
-	Debit card Number : <input type="number"></br>
+	Debit card Number : <input type="number" required></br>
 	</br> Expiry Date : <input type="text"></br>
-	</br> CVV : <input type="text"></br>
-	</br> <input type="submit" value="submit"></br>
+	</br> CVV : <input type="number" required></br>
+	</br> <input type="submit" value="submit" ></br>
 	</br>
 
 </form>

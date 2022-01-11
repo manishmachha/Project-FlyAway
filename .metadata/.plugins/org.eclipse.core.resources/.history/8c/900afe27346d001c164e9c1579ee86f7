@@ -1,8 +1,0 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<%
-String count=request.getParameter("no of persons");
-out.println("Payment  of amount " + 5000*count +"Successful");
-RequestDispatcher rd = request.getRequestDispatcher("/payment.jsp");
-rd.include(request, response);
-%>

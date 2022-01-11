@@ -33,3 +33,13 @@ Jan 11, 2022 09:43:35.661 [3848:1836:0111/094335.661:ERROR:chrome_browser_main_e
 Jan 11, 2022 09:43:35.662 [3848:1836:0111/094335.661:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
 Jan 11, 2022 09:43:35.662 [3848:1836:0111/094335.661:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
 Jan 11, 2022 09:43:35.662 [3848:1836:0111/094335.662:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+
+Jan 11, 2022 15:54:36.523 NEW SESSION
+Jan 11, 2022 15:54:36.523 [8860:4172:0111/155436.522:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 11, 2022 15:54:36.539 [8860:4172:0111/155436.522:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+Jan 11, 2022 15:54:36.539 [8860:4172:0111/155436.522:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 11, 2022 15:54:36.539 [8860:4172:0111/155436.524:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+Jan 11, 2022 16:00:39.802 [15524:19300:0111/160039.802:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 11, 2022 16:00:39.802 [15524:19300:0111/160039.802:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+Jan 11, 2022 16:00:39.802 [15524:19300:0111/160039.802:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+Jan 11, 2022 16:00:39.803 [15524:19300:0111/160039.803:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()

@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@page import="java.sql.*"%>
+<title>Available Flights</title>
 <%
 String SOURCE = request.getParameter("source");
 String DESTINATION = request.getParameter("destination");
@@ -13,6 +14,7 @@ Connection con = DriverManager.getConnection(url, user, pass);
 Statement st = con.createStatement();
 ResultSet rs = st.executeQuery(sql);
 %>
+<h1>Available Flights :</h1>
 <table border="1">
 	<tr>
 		<th>name</th>
@@ -39,7 +41,7 @@ ResultSet rs = st.executeQuery(sql);
 </table>
 </br>
 <form action="customerdetails.jsp" method="post">
-	No of Persons <input type="number" name="no of persons"></br>
+	No of Persons <input type="number" name="no of persons" required></br>
 	</br> <input type="submit" value="Book Ticket">
 
 </form>
